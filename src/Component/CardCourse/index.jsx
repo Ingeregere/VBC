@@ -1,4 +1,5 @@
 import React from 'react'
+import './styleCourse.css'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import slidevbc1 from '../../assets/images/slidevbc1.png'
 import slidevbc2 from '../../assets/images/slidevbc2.png'
@@ -8,7 +9,7 @@ import slidevbc4 from '../../assets/images/slidevbc4.png'
 function Course() {
   return (
     <Container className={'mt-3'}>
-        <h3>Les cours de vbc international</h3>
+        <h2 className={'text-center'}> <u className={'underlineCourse'}>Les cours de VBC international</u></h2>
         <Row>
             <Col md={3}>
             <Card className={'mb-3'}>

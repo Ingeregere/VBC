@@ -1,3 +1,15 @@
-.bgNavbar{
-    /* background-color: rgb(73, 72, 72); */
+.orderNavbar{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    border-color: #ffc107;
+
+}
+.navbar-light .navbar-toggler{
+    box-shadow: none;
+}
+.navbar-toggler{
+    background-color: #ffc107;
+    border:1px solid #ffc107
+
 }

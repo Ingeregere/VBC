@@ -7,7 +7,7 @@ function Navbars() {
     <Navbar collapseOnSelect expand="lg"  bg={'warning'} className={'bgNavbar'}>
   <Container>
   <Navbar.Brand href="#home">VBC-INTERNATIONAL</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" className={'borderNavbar'} />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link href="#features">Features</Nav.Link>
