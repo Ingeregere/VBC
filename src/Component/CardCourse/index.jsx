@@ -15,7 +15,7 @@ function Course() {
             <Card className={'mb-3'}>
                 <Card.Img variant="top" src={slidevbc1} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title> First Course </Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -29,7 +29,7 @@ function Course() {
             <Card className={'mb-3'}>
                 <Card.Img variant="top" src={slidevbc2} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Second Course</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -42,7 +42,7 @@ function Course() {
             <Card className={'mb-3'}>
                 <Card.Img variant="top" src={slidevbc3} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Third Course</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -55,7 +55,7 @@ function Course() {
             <Card className={'mb-3'}>
                 <Card.Img variant="top" src={slidevbc4} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Fourth Course</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.

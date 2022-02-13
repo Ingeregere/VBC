@@ -52,7 +52,7 @@ export default class Responsive extends Component {
             <Card className={'m-2'} >
                 <Card.Img variant="top" src={slidevbc1} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title> First Testymonie </Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -66,7 +66,7 @@ export default class Responsive extends Component {
             <Card className={'m-2'}>
                 <Card.Img variant="top" src={slidevbc2} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Second Testymonie </Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -79,7 +79,7 @@ export default class Responsive extends Component {
             <Card className={'m-2'}>
                 <Card.Img variant="top" src={slidevbc3} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Third Testymonie</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -92,7 +92,7 @@ export default class Responsive extends Component {
             <Card className={'m-2'}>
                 <Card.Img variant="top" src={slidevbc4} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Fourth Testymonie</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
