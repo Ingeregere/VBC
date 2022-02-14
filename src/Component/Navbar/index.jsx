@@ -18,8 +18,8 @@ function Navbars() {
       
     </Nav>
     <Nav>
-      <Nav.Link href="/">Youtube</Nav.Link>
-      <Nav.Link eventKey={2} href="/">
+      <Nav.Link as={Link} to="/">Youtube</Nav.Link>
+      <Nav.Link eventKey={2} as={Link} to="/">
         facebook
       </Nav.Link>
     </Nav>
