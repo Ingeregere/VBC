@@ -1,3 +1,7 @@
 .styles_gridItem__nPXhF figcaption{
     color: #ffc107 !important;
+    background: rgb(247,240,240) !important;
+}
+.styles_gridItem__nPXhF figure > div > img{
+    opacity: 1 !important;
 }
