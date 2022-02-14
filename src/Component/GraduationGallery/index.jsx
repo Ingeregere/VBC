@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './styleGallery.css'
 
 import DztImageGalleryComponent from "reactjs-image-gallery";
 
