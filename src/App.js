@@ -1,23 +1,22 @@
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Course from './Component/CardCourse';
-import ControlledCarousel from './Component/Carousel';
+import HomePage from './Pages/Home.page'
+import GraduationGallery from './Pages/Graduation.page'
+
 import Navbars from './Component/Navbar';
-import Testymonie from './Component/Testymonie';
-import { Container } from 'react-bootstrap';
 import Footer from './Component/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <Navbars />
-      <ControlledCarousel />
-      <Course />
-      <Container>
-       <Testymonie />
-      </Container>
+      <Routes> GraduationGallery
+          <Route path='/' exact element={<HomePage />} /> 
+          <Route path='/graduation' exact element={<GraduationGallery />} /> 
+
+      </Routes>
       <Footer />
     </Router>
   );

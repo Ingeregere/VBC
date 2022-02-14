@@ -9,7 +9,7 @@ import slidevbc4 from '../../assets/images/slidevbc4.png'
 function Course() {
   return (
     <Container className={'mt-3'}>
-        <h2 className={'text-center'}> <u className={'underlineCourse'}>Les cours de VBC international</u></h2>
+        <h2 className={'text-center'}> Les cours de VBC international</h2>
         <Row>
             <Col md={3}>
             <Card className={'mb-3'}>
